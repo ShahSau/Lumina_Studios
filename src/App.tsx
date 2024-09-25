@@ -9,6 +9,7 @@ import Loader from "./components/Loader";
 import GlobalStyles from "./styles/GlobalStyles";
 import ScrollTriggerProxy from "./components/ScrollTriggerProxy";
 import Home from "./section/Home";
+import About from "./section/About";
 
 const App=()=> {
 
@@ -50,6 +51,7 @@ const App=()=> {
                 {Loaded ? null : <Loader />}
 
                 <Home key="home" />
+                <About key="about" />
               </AnimatePresence>
             </main>
         </LocomotiveScrollProvider>
